@@ -58,8 +58,8 @@ def generate_phishing_email(platform, username, phishing_link):
 
 # Function to send the email using SMTP
 def send_email(recipient_email, subject, body):
-    sender_email = "sajid05541786@gmail.com"  # Your email
-    sender_password = "xevv kltn dwhr ovci"  # Your email password (or app password if using Gmail)
+    sender_email = "example@gmail.com"  # Your email
+    sender_password = "your password"  # Your email password (or app password if using Gmail)
 
     # Create the email content
     msg = MIMEMultipart()
